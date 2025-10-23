@@ -1,0 +1,31 @@
+name: Post link on new issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Comment with link
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue_number = context.payload.issue.number;
+            const repo = context.repo.repo;
+            const owner = context.repo.owner;
+
+            const message = `
+            👋 Thanks for contacting the Data Services Hub Helpdesk!
+            Please visit [the service provision questionnaire](https://smartguidance-rd.dsw.elixir-europe.org/wizard/projects/285142bc-4fbc-4f50-a652-e80edb3d5869) to define your needs, so that we can better assign liaisons to guide you.
+            `;
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: message
+            });
