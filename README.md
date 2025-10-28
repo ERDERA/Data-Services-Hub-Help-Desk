@@ -1,5 +1,5 @@
 # Data Services Hub Help Desk
-This helpdesk is the single entry point for any individual or organisation to start a collaboration with and ask questions to the European Rare Diseases Research Alliance (ERDERA)'s Data Service Hub (DSH).
+This helpdesk is the single entry point for any individual or organisation to start a contribution/collaboration with and ask questions to the European Rare Diseases Research Alliance (ERDERA)'s Data Service Hub (DSH).
 
 To post issues:
 1. Create an account on GitHub: [https://github.com/](https://github.com/)
@@ -11,6 +11,9 @@ To post issues:
 
 Preferrably, we kindly ask you to write the issues in English if possible. 
 The answers you provide in the service provision form will be sent to the relevant DSH teams' GitHub. This online ticketing system allows requests from users to be stored and tracked.
+
+Video-tutorial: We've created a video that guides you through the whole process for starting a contribution with the DSH
+https://www.youtube.com/watch?v=7k9lxv2GOhE
 
 Acknowledgements
 European Rare Disease Research Alliance (ERDERA)  has received funding from the European Union's Horizon 2020 research and innovation programme, under grant agreement N°101156595.
