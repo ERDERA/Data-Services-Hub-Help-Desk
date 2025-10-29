@@ -20,7 +20,7 @@ jobs:
 
             const message = `
             👋 Thanks for contacting the Data Services Hub Helpdesk!
-            Please visit [the service provision questionnaire](https://smartguidance-rd.dsw.elixir-europe.org/wizard/dashboard) to define your needs, so that we can better assign liaisons to guide you.
+            Please remember to complete the [Service Provision form](https://smartguidance-rd.dsw.elixir-europe.org/wizard/dashboard) to define your needs, so that we can better assign liaisons to guide you.
             `;
 
             await github.rest.issues.createComment({
