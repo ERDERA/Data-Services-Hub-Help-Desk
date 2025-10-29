@@ -1,0 +1,26 @@
+name: ERDERA Data Services Hub Entry Point
+description: Default issue tempate to start a contribution with the Data Services Hub
+title: [Your resource name here] A short sentence summarizing your contribution
+body:
+  -type: markdown
+    attributes:
+      value: |
+        Please make sure to fill out the sections below to help us understand how you want to contribute to the Data Services Hub (DSH). Reminder that we have a [video-tutorial](https://www.youtube.com/watch?v=7k9lxv2GOhE) explaing the whole contribution workflow.
+  -type: textarea
+    id: description
+    attributes:
+      label: Briefly describe your contribution/collaboration plan
+      placeholder: Click here to start writing
+    validations:
+      required: true
+  -type: markdown
+    attributes:
+      value: |
+      The DSH has created a questionnaire, the [Service Provision Form](https://smartguidance-rd.dsw.elixir-europe.org/wizard/dashboard), that allows you to select the services you are interested in. Additionally, the replies are used to send tracking tickets to the relevant teams depending on your specific needs, so please make sure to complete it after submitting this issue.
+  -type: checkboxes
+    id: questionnaire
+    attributes:
+      label: Before issue creation
+      options:
+        - label: I understand that I must complete the [Service Provision Form](https://smartguidance-rd.dsw.elixir-europe.org/wizard/dashboard) after submitting this issue for my request to be tracked by the DSH.
+        required: true
