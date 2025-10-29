@@ -9,7 +9,7 @@ To post issues:
 5. Click "Create" (at the bottom right).
 6. You should receive a comment with a link to the DSH service provision form, where you can select the services you are interested in.
 
-Preferrably, we kindly ask you to write the issues in English if possible. 
+We kindly request that you write your issues in English.
 The answers you provide in the service provision form will be sent to the relevant DSH teams' GitHub. This online ticketing system allows requests from users to be stored and tracked.
 
 # Video-tutorial
