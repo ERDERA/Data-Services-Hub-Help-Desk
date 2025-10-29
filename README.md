@@ -17,4 +17,4 @@ We've created a video that guides you through the whole process for starting a c
 https://www.youtube.com/watch?v=7k9lxv2GOhE
 
 # Acknowledgements
-European Rare Disease Research Alliance (ERDERA)  has received funding from the European Union's Horizon 2020 research and innovation programme, under grant agreement N°101156595.
+European Rare Disease Research Alliance (ERDERA) has received funding from the European Union's Horizon 2020 research and innovation programme, under grant agreement N°101156595 HORIZON-HLTH-2023-DISEASE-07 as a COFUND Action
